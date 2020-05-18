@@ -9,14 +9,22 @@
     display: inline;
 }
 
-.hotestCountry{
+.hotestCountry, .outstandingContainer, .emailsSent{
+    font-size: larger;
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 
 }
 
-.outstandingIcon{
+.outstandingIcon, .emailIcon{
     color: red;
     height: 80px;
     width: 80px;
+    justify-items: center;
+    justify-content: center;
+    
 }
 
 .emailIcon{
@@ -27,6 +35,7 @@
 .headerAnalytics{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
 }
 
 .graphs{
@@ -34,11 +43,29 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.sss{
+.sss, .emailsNum ,.unsoldNum{
     font-family: 'Assistant';
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
-
-    
+    margin-left: 40px;
+    font-size: 30px;
 }
+
+.{
+   
+}
+.hottestTitle{
+ font-family: 'Assistant';
+ margin-left: 200px;
+}
+
+.EmailsText{
+    font-family: 'Assistant';
+    margin-left: 130px;
+   }
+
+.outstandingText{
+    font-family: 'Assistant';
+    margin-left: 150px;
+   }

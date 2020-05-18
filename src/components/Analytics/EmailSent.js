@@ -12,9 +12,10 @@ class EmailSent extends Component {
    
     render() {
         return (
-            <div>
+            <div className="emailsSent">
                 <FaRegEnvelope className="emailIcon" />
-                {this.countEmailSent()}
+                <span className="emailsNum">{this.countEmailSent()}</span>
+                <h6 className="EmailsText"> Emails Sent </h6>
             </div>
         );
     }

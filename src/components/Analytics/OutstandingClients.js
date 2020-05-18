@@ -12,9 +12,10 @@ class OutstandingClients extends Component {
     
     render() {
         return (
-            <div>
+            <div className="outstandingContainer">
                 <FaUserCircle className='outstandingIcon' />
-                {this.unSold()}
+                <span className="unsoldNum">{this.unSold()}</span>
+                <h6 className="outstandingText"> Outstanding Clients </h6>
             </div>
         );
     }

@@ -16,9 +16,9 @@ class Analytics extends Component {
         return (
             <div className="analytics">
                 <div className="headerAnalytics">
-                <HotestCountry/>
-                <OutstandingClients/>
                 <EmailSent/>
+                <OutstandingClients/>
+                <HotestCountry/>
                 </div>
                 <div className='graphs'>
                 <TopEmployees/>

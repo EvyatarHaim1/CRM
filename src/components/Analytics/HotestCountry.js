@@ -13,7 +13,8 @@ class HotestCountry extends Component {
         return (
             <div className="hotestCountry">
                 <FaGlobeAmericas className='globus' /> 
-                <span className='sss' > Hotest Country: {this.props.ans.hotestCountry}</span>
+                <span className='sss'>{this.props.ans.hotestCountry}</span>
+                <h6 className="hottestTitle"> Hotest Country</h6>
             </div>
         );
     }
